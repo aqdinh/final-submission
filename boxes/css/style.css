@@ -1,0 +1,75 @@
+:root {
+  --pricolor: aquamarine;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  /* background-image:url('../img/plasterwall.jpg'); */
+  /* background-color:grey; */
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  /* background: grey; */
+  position: relative;
+  overflow: hidden;
+}
+
+.box {
+  /* height: 100px;
+  width: 200px; */
+  position: relative;
+  left: -50%;
+  background-color: var(--pricolor);
+  animation-name: example; /* Safari 4.0 - 8.0 */
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  margin-bottom: 100px;
+}
+
+  @keyframes example {
+      0% {left: -40%; 5op: 0px;}
+      100% {left:140%; top:0px}
+    }
+
+
+.boxone {
+    animation-duration: 15s; /* Safari 4.0 - 8.0 */
+    opacity: 1;
+    animation-delay: 1s;
+}
+
+.boxtwo {
+    animation-duration: 19s; /* Safari 4.0 - 8.0 */
+    margin-bottom: 60px;
+    }
+
+    .boxthree {
+      opacity: 0.5;
+      background-color: var(--pricolor);
+      animation-duration: 14s; /* Safari 4.0 - 8.0 */
+      animation-delay: 10s;
+      margin-bottom: 20px;
+    }
+
+      .boxfour {
+        opacity: 0.8;
+        animation-duration: 20s; /* Safari 4.0 - 8.0 */
+        margin-bottom: 40px;
+
+      }
+
+        .boxfive {
+          opacity: 0.4;
+          animation-duration: 17s; /* Safari 4.0 - 8.0 */
+          animation-delay: 7s;
+        }
+
+        .boxsix {
+          opacity: 0.8;
+          animation-duration: 16s; /* Safari 4.0 - 8.0 */
+          animation-delay: 2.5s;
+        }
